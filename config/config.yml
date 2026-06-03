@@ -1,0 +1,6 @@
+customCommands:
+  - key: 'C'
+    context: 'files'
+    command: 'aic'
+    suspend: true
+    description: 'AI commit (aic)'
