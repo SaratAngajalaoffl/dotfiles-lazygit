@@ -2,13 +2,5 @@ customCommands:
   - key: 'C'
     context: 'files'
     description: 'AI commit (aic)'
-    prompts:
-      - type: 'menuFromCommand'
-        title: 'AI Commit Message'
-        key: 'Message'
-        command: 'aic --generate'
-      - type: 'input'
-        title: 'Edit commit message'
-        key: 'FinalMessage'
-        initialValue: '{{.Form.Message}}'
-    command: 'git commit -m "{{.Form.FinalMessage}}"'
+    command: 'aic'
+    output: terminal
