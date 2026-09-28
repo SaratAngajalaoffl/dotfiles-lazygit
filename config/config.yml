@@ -4,3 +4,8 @@ customCommands:
     description: 'AI commit (aic)'
     command: 'aic'
     output: terminal
+  - key: 'A'
+    context: 'files'
+    description: 'AI commit all repos (aicp)'
+    command: 'aicp'
+    output: terminal
